@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "name": "myexpressapp",
+  "builds": [
+    { "src": "package.json", "use": "@now/static-build" }
+  ]
+}
