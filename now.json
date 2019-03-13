@@ -2,6 +2,6 @@
   "version": 2,
   "name": "myexpressapp",
   "builds": [
-    { "src": "**/*.js", "use": "@now/node" }
+    { "src": "package.json", "use": "@now/node" }
   ]
 }
