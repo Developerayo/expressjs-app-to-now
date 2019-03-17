@@ -2,6 +2,6 @@
   "version": 2,
   "name": "myexpressapp",
   "builds": [
-    { "src": "bin/www.js", "use": "@now/node-server", "config": { "maxLambdaSize": "20mb" } }
+    { "src": "bin/www.js", "use": "@now/node", "config": { "maxLambdaSize": "20mb" } }
   ]
 }
